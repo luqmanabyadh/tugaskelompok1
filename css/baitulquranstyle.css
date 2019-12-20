@@ -1,0 +1,169 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #263f44;
+    background-size: cover;
+    position: fixed;
+    display: table;
+    padding: 15px 5px;
+}
+
+body {
+    background-color: #015668;
+    font-family: Arial;
+    margin: 0;
+}
+
+.title {
+    color: #fff1cf;
+    margin-left: 10px;
+}
+
+.subtitle {
+    color: #fff1cf;
+    margin-left: 10px;
+}
+
+.youareloginas {
+    font-size: 12px;
+    font-family: Arial;
+    color: #fff1cf;
+    font-style: italic;
+}
+
+.adminuser {
+    font-size: 18px;
+    font-family: Arial;
+    color: #fff1cf;
+}
+
+.jobadmin {
+    font-size: 13px;
+    font-family: Arial;
+    color: #fff1cf;
+    font-style: italic;
+}
+
+.kiriheader {
+    float: left;
+}
+
+.kananheader {
+    float: right;
+    margin-right: 2%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 16.66%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffd369;
+    overflow-x: hidden;
+    padding-top: 5px;
+    font-family: Arial;
+    font-style: none;
+    margin-top: 141px;
+    list-style-type: none;
+    -webkit-padding-start: 0px;
+  }
+  
+  .sidenav a {
+    padding: 20px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #263f44;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .mainwrapper {
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    -webkit-padding-start: none;
+    height: 340px;
+    width: 83.33%;
+    position: fixed;
+    display: inline-block;
+    background-color: #e5e4cc;
+    font-family: Arial;
+    font-style: none;
+    margin-top: 141px;
+    list-style-type: none;
+    -webkit-padding-start: 0px;
+    margin-left: 224.73px;
+  }
+ /* JUMBOTRON */
+
+  .jumbotron {
+    margin: 0px 40px 0px 0px;
+    padding: 20px; /* fills out the jumbotron */
+    background-color: #fff1cf;
+    width: 100%;
+    -webkit-margin-start: 0px;
+  }
+  
+  .container {
+    width: 75%; /* specify a width */
+    margin: 0 0 0 0;  /* centers the container */
+    padding: 0px 0px; /* adds some padding to the left and right*/
+  }
+  
+  .jumbotron .container { 
+    max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+    background-color: #fff1cf;
+
+  }
+  
+  .jumbotron h3 { 
+    text-align: center; /* centers the heading */
+    color: #DDD;
+    font-family: Arial;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .mainnotif {
+      color: #263f44;
+      margin: 0px 0px 0px 0px;
+      font-size: 20px;
+      font-family: Arial;
+  }
+  
+  .halonotif {
+      color: #263f44;
+      margin: 0px 0px 0px 0px;
+      font-size: 34px;
+      font-family: Arial;
+  }
+
+  .haloluqman {
+      color: #263f44;
+      margin: 0px 0px 0px 0px;
+      font-size: 42px;
+      font-family: Arial;
+  }
+
+  .toolbar {
+      background-color:#fff1cf;
+      border-bottom: 1px solid #D5D5D5;
+      height: 80px;
+      position: relative;
+      max-height: 80px;
+
+  }
+
+  .homenote {
+      margin-top: 30px;
+      margin-left: 20px;
+      font-family: Arial;
+      font-size: 15px;
+      background-color:#fff1cf ;
+      padding-left: 10px;
+      -webkit-margin-start: 0px;
+  }
